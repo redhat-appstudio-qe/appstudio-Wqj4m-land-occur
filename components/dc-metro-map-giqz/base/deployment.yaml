@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-giqz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-giqz@sha256:d3a07d807ccc1d63944768bd29823cecd183c43e46ff27a75b3cccf42d81ee9b
         name: my-nodejs
         ports:
         - containerPort: 3001
